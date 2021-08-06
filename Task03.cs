@@ -4,7 +4,8 @@
     */
     static bool IsTriangular(int n) 
     {
-        for (int i = 2; n > 1; i++) {
+        for (int i = 2; n > 1; i++) 
+        {
             n -= i;
         }
         return n == 1;
